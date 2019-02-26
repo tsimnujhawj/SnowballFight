@@ -1,0 +1,23 @@
+fileFormatVersion: 2
+guid: fe2765d1ff8ded84d9de826ed3895205
+TrueTypeFontImporter:
+  externalObjects: {}
+  serializedVersion: 4
+  fontSize: 16
+  forceTextureCase: -2
+  characterSpacing: 0
+  characterPadding: 1
+  includeFontData: 1
+  fontName: Big Snow
+  fontNames:
+  - Big Snow
+  fallbackFontReferences:
+  - {fileID: 12800000, guid: a3b4aea105e5db24a8cba3850391556f, type: 3}
+  customCharacters: 
+  fontRenderingMode: 0
+  ascentCalculationMode: 1
+  useLegacyBoundsCalculation: 0
+  shouldRoundAdvanceValue: 1
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
