@@ -11,7 +11,7 @@ GameObject:
   - component: {fileID: 1858464851033939379}
   - component: {fileID: 1858464851033939378}
   m_Layer: 0
-  m_Name: Game State
+  m_Name: Game Status
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -44,3 +44,5 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   gameSpeed: 0.7
+  pointsPerBlockDestroyed: 10
+  currentScore: 0
