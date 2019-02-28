@@ -15,7 +15,7 @@ public class GameStatus : MonoBehaviour
 
     private void Start()
     {
-        
+        scoreText.text = currentScore.ToString();
     }
 
     void Update()
@@ -26,6 +26,7 @@ public class GameStatus : MonoBehaviour
     public void addToScore()
     {
         currentScore += pointsPerBlockDestroyed;
+        scoreText.text = currentScore.ToString();
     }
 
 }
