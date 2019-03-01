@@ -49,4 +49,10 @@ public class GameSession : MonoBehaviour
         Destroy(gameObject);
     }
 
+    public void DestroyGameObjectAtLost()
+    {
+        gameObject.SetActive(false);
+        Destroy(gameObject);
+    }
+
 }

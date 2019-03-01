@@ -5,10 +5,11 @@ using UnityEngine.SceneManagement;
 
 public class LoseCollider : MonoBehaviour
 {
+    GameSession gameSession;
 
     private void OnTriggerEnter2D(Collider2D collision)
     {
-        Debug.Log("Game over...");
+        FindObjectOfType<GameSession>().DestroyGameObjectAtLost();
         SceneManager.LoadScene("GameOver");
     }
 
