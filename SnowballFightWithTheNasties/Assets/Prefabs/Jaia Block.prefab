@@ -112,3 +112,6 @@ MonoBehaviour:
   breakSound: {fileID: 8300000, guid: 9ea076e903682ca4889034f5e1a531fa, type: 3}
   blockSparklesVFX: {fileID: 100000, guid: 7d846c02296ef4dc4abff04ce3e5262c, type: 3}
   destroyAfterTime: 1
+  maxHits: 0
+  hitSprites: []
+  timesHit: 0
