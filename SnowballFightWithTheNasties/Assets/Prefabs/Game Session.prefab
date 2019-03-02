@@ -48,6 +48,7 @@ MonoBehaviour:
   gameSpeed: 1
   pointsPerBlockDestroyed: 10
   scoreText: {fileID: 6467910819255229962}
+  isAutoPlayEnabled: 0
   currentScore: 0
 --- !u!82 &8012753856065267735
 AudioSource:
